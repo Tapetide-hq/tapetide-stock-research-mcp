@@ -15,9 +15,9 @@ Works with Claude Desktop, ChatGPT, Cursor, Windsurf, Kiro, and any client that 
 
 ## Quick Start
 
-### Remote MCP (Claude, ChatGPT, Cursor)
+### Remote MCP (claude.ai, chatgpt.com, Grok, Gemini)
 
-Add this URL to your MCP client — no install needed:
+Add this URL directly in your AI chat app — no install needed:
 
 ```
 https://mcp.tapetide.com/mcp
@@ -25,7 +25,7 @@ https://mcp.tapetide.com/mcp
 
 Authentication happens automatically via Google OAuth.
 
-### Local MCP (Kiro, Windsurf, any stdio client)
+### Local MCP (Kiro, Windsurf, Cursor, VS Code, Codex, any stdio client)
 
 1. Get a free token at [tapetide.com/settings/tokens](https://tapetide.com/settings/tokens)
 2. Add to your MCP config:
