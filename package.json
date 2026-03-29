@@ -1,7 +1,7 @@
 {
   "name": "tapetide-mcp",
   "version": "1.0.0",
-  "description": "Indian stock market data & analysis for AI assistants — search stocks, screen with 100+ filters, get quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, and more for ~8,200 NSE/BSE stocks.",
+  "description": "Indian stock market MCP server for AI assistants — search, screen, and analyze ~8,200 NSE/BSE stocks with 26 tools for quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights. Works with Claude, ChatGPT, Cursor, Kiro, and any MCP client.",
   "type": "module",
   "bin": {
     "tapetide-mcp": "./dist/index.js"
@@ -12,15 +12,35 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
     "model-context-protocol",
-    "stocks",
-    "india",
+    "stock-market",
+    "stock-research",
+    "stock-analysis",
+    "indian-stock-market",
     "nse",
     "bse",
+    "nifty",
+    "sensex",
     "finance",
+    "financial-data",
     "market-data",
+    "stock-screener",
+    "technical-analysis",
+    "fundamental-analysis",
+    "fii-dii",
+    "ipo",
+    "mutual-funds",
     "ai",
-    "llm"
+    "llm",
+    "claude",
+    "chatgpt",
+    "cursor",
+    "ai-assistant",
+    "stock-quotes",
+    "ohlcv",
+    "analyst-ratings",
+    "tapetide"
   ],
   "license": "MIT",
   "repository": {
