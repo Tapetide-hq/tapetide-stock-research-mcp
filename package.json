@@ -1,0 +1,44 @@
+{
+  "name": "tapetide-mcp",
+  "version": "1.0.0",
+  "description": "Indian stock market data & analysis for AI assistants — search stocks, screen with 100+ filters, get quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, and more for ~8,200 NSE/BSE stocks.",
+  "type": "module",
+  "bin": {
+    "tapetide-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "tsc"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "stocks",
+    "india",
+    "nse",
+    "bse",
+    "finance",
+    "market-data",
+    "ai",
+    "llm"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tapetide/tapetide-mcp"
+  },
+  "homepage": "https://tapetide.com/mcp",
+  "author": "Tapetide <hello@tapetide.com>",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^5.7.0"
+  }
+}
