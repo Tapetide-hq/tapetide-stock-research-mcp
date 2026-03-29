@@ -276,7 +276,7 @@ Authentication happens automatically via Google OAuth.
 
 ## Rate Limits
 
-- **Free tier**: 100 requests/hour, 1,000 requests/day
+- **Free tier**: 1,000 requests/hour, 4,000 requests/day
 - Rate limit headers included in every response
 
 ## Links
