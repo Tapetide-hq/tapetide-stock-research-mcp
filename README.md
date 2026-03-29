@@ -25,7 +25,7 @@ https://mcp.tapetide.com/mcp
 
 Authentication happens automatically via Google OAuth.
 
-### Local MCP (Kiro, Windsurf, Cursor, VS Code, Codex, any stdio client)
+### Local MCP (Claude Code, Codex, Cursor, Windsurf, VS Code, Kiro, OpenCode, or any stdio client)
 
 1. Get a free token at [tapetide.com/settings/tokens](https://tapetide.com/settings/tokens)
 2. Add to your MCP config:
