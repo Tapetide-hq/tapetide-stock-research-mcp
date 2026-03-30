@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://tapetide.com/icon-192.png" alt="Tapetide" width="80" />
+  <img src="https://assets.tapetide.com/logo.svg" alt="Tapetide" width="80" />
 </p>
 
 # Tapetide MCP Server — Indian Stock Market Data for AI Assistants
