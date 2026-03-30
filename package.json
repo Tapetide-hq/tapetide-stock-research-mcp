@@ -1,6 +1,6 @@
 {
   "name": "tapetide-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Indian stock market MCP server for AI assistants — search, screen, and analyze ~8,200 NSE/BSE stocks with 26 tools for quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights. Works with Claude, ChatGPT, Cursor, Kiro, and any MCP client.",
   "type": "module",
   "bin": {
