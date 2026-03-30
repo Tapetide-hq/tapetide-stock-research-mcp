@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://tapetide.com/icon-192.png" alt="Tapetide" width="80" />
+</p>
+
 # Tapetide MCP Server — Indian Stock Market Data for AI Assistants
 
 > Stock research MCP server for Claude, ChatGPT, Cursor, Kiro, and any MCP-compatible AI agent. Search, screen, and analyze ~8,200 NSE and BSE stocks with 26 tools covering quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights.
