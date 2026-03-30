@@ -18,7 +18,7 @@ Add the following to your MCP configuration file (e.g., `cline_mcp_settings.json
       "command": "npx",
       "args": ["-y", "tapetide-mcp"],
       "env": {
-        "TAPETIDE_TOKEN": "<USER_MUST_PROVIDE_TOKEN>"
+        "TAPETIDE_TOKEN": "get your free token from https://tapetide.com/settings/tokens"
       }
     }
   }

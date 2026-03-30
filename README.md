@@ -41,7 +41,7 @@ Authentication happens automatically via Google OAuth.
       "command": "npx",
       "args": ["-y", "tapetide-mcp"],
       "env": {
-        "TAPETIDE_TOKEN": "tpt_rt_your_token_here"
+        "TAPETIDE_TOKEN": "get your free token from https://tapetide.com/settings/tokens"
       }
     }
   }
