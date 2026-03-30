@@ -4,7 +4,7 @@
 
 # Tapetide Stock Research MCP Server — Indian Stock Market Data for AI Assistants
 
-> Tapetide Stock Research MCP Server for Claude, ChatGPT, Cursor, Kiro, and any MCP-compatible AI agent. Search, screen, and analyze ~8,200 NSE and BSE stocks with 26 tools covering quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights.
+> Tapetide Stock Research MCP Server for Claude, ChatGPT, Cursor, Kiro, and any MCP-compatible AI agent. Search, screen, and analyze all NSE and BSE stocks with 26 tools covering quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights.
 
 [![npm](https://img.shields.io/npm/v/tapetide-mcp)](https://www.npmjs.com/package/tapetide-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
@@ -51,7 +51,7 @@ Authentication happens automatically via Google OAuth.
 ## Tools
 
 ### Search & Discovery
-- `search_stocks` — Fuzzy search across ~8,200 NSE and BSE listed stocks by name, symbol, BSE code, or ISIN. Filter by sector or industry.
+- `search_stocks` — Fuzzy search across all NSE and BSE listed stocks by name, symbol, BSE code, or ISIN. Filter by sector or industry.
 
 ### Company Data
 - `get_company_profile` — Company overview with sector, fundamentals (PE, PB, market cap, ROE, ROCE, debt/equity), growth metrics, and current quote. Optionally include technicals, analyst ratings, and peer comparisons in one call.
@@ -266,14 +266,14 @@ Authentication happens automatically via Google OAuth.
 
 | Category | Coverage |
 |----------|----------|
-| Stocks | ~8,200 NSE and BSE listed companies |
+| Stocks | All NSE and BSE listed companies |
 | Price data | Daily OHLCV (up to 2,000 days) + weekly aggregation |
 | Financials | Quarterly + annual P&L, balance sheet, cash flow, ratios |
 | Screener | 100+ filters, 47 preset strategies, cross-field comparisons |
 | Technicals | 20+ indicators: RSI, SMA, EMA, MACD, Bollinger Bands, ADX, ATR, Supertrend, Stochastic, MFI, CCI, Williams %R, pivot points |
 | Candlestick patterns | Bullish/bearish engulfing, hammer, shooting star, morning/evening star, three white soldiers, three black crows, and more |
 | Institutional flows | FII/DII daily cash + F&O participant OI, FPI sector-wise, buy/sell streaks |
-| Market insights | Bulk/block deals, F&O ban, IPOs, top deliveries, MTF, SLBM, heatmaps, signals |
+| Market insights | Bulk/block deals, F&O data, IPOs, top deliveries, MTF, SLBM, heatmaps, signals |
 | Analyst data | Consensus ratings + EPS/revenue/EBITDA/ROE/ROA forecasts with actuals vs estimates |
 | Ownership | Shareholding patterns, dividend history, mutual fund scheme-level holdings |
 | Events | Sentiment-tagged news, corporate actions, company filings (annual reports, concalls, presentations) |
