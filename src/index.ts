@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * Tapetide MCP — Local stdio bridge to the remote MCP server.
+ * Tapetide Stock Research MCP Server — Local stdio bridge to the remote MCP server.
  *
  * Reads JSON-RPC from stdin, forwards to https://mcp.tapetide.com/mcp
  * with HMAC access token auth, writes responses to stdout.
@@ -211,7 +211,7 @@ async function handleMessage(line: string, write: WriteFn): Promise<void> {
 async function main(): Promise<void> {
   // Graceful shutdown.
   const shutdown = () => {
-    process.stderr.write("Tapetide MCP shutting down.\n");
+    process.stderr.write("Tapetide Stock Research MCP shutting down.\n");
     process.exit(0);
   };
   process.on("SIGINT", shutdown);
@@ -227,7 +227,7 @@ async function main(): Promise<void> {
     process.exit(1);
   }
 
-  process.stderr.write("Tapetide MCP connected. Waiting for requests...\n");
+  process.stderr.write("Tapetide Stock Research MCP connected. Waiting for requests...\n");
 
   // Auto-detect framing from first chunk.
   // Content-Length framed starts with "Content-Length:", newline-delimited starts with "{".

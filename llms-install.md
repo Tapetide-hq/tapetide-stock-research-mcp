@@ -1,4 +1,4 @@
-# Tapetide MCP Server — Installation Guide for AI Agents
+# Tapetide Stock Research MCP Server — Installation Guide for AI Agents
 
 ## Prerequisites
 

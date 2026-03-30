@@ -2,20 +2,20 @@
   <img src="https://assets.tapetide.com/logo.svg" alt="Tapetide" width="80" />
 </p>
 
-# Tapetide MCP Server — Indian Stock Market Data for AI Assistants
+# Tapetide Stock Research MCP Server — Indian Stock Market Data for AI Assistants
 
-> Stock research MCP server for Claude, ChatGPT, Cursor, Kiro, and any MCP-compatible AI agent. Search, screen, and analyze ~8,200 NSE and BSE stocks with 26 tools covering quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights.
+> Tapetide Stock Research MCP Server for Claude, ChatGPT, Cursor, Kiro, and any MCP-compatible AI agent. Search, screen, and analyze ~8,200 NSE and BSE stocks with 26 tools covering quotes, financials, technicals, analyst ratings, forecasts, FII/DII flows, screener, and market insights.
 
 [![npm](https://img.shields.io/npm/v/tapetide-mcp)](https://www.npmjs.com/package/tapetide-mcp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
 
 ## What is this?
 
-Tapetide MCP is a [Model Context Protocol](https://modelcontextprotocol.io/) server that gives AI assistants direct access to Indian stock market data. Ask your AI to look up any NSE/BSE stock, run a screener with 100+ filters, pull financials, check technical indicators, or get the latest FII/DII activity — all through natural language.
+Tapetide Stock Research MCP Server is a [Model Context Protocol](https://modelcontextprotocol.io/) server that gives AI assistants direct access to Indian stock market data. Ask your AI to look up any NSE/BSE stock, run a screener with 100+ filters, pull financials, check technical indicators, or get the latest FII/DII activity — all through natural language.
 
 Works with Claude Desktop, ChatGPT, Cursor, Windsurf, Kiro, and any client that supports MCP.
 
-**[Learn more about Tapetide MCP →](https://tapetide.com/mcp)**
+**[Learn more about Tapetide Stock Research MCP Server →](https://tapetide.com/mcp)**
 
 ## Quick Start
 
